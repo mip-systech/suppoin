@@ -8,3 +8,8 @@
 
 import Foundation
 import RealmSwift
+
+class Patient: Object {
+    @objc dynamic var name = ""
+    
+}
